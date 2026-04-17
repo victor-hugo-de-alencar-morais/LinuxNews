@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     marginTop: 20,
     marginBottom: 12,
-    color: '#a5d6a7', // verde claro
+    color: '#a5d6a7', 
   },
   distroList: {
     paddingLeft: 20,

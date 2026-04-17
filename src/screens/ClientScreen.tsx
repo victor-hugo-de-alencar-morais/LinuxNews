@@ -1,4 +1,3 @@
-// ClientScreen.js
 import React, { useContext } from 'react';
 import {
   View,
@@ -69,7 +68,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#121212',
   },
   profileHeader: {
-    backgroundColor: '#1b5e20', // verde escuro
+    backgroundColor: '#1b5e20', 
     paddingVertical: 40,
     alignItems: 'center',
     borderBottomLeftRadius: 30,
@@ -149,7 +148,7 @@ const styles = StyleSheet.create({
     color: '#81c784',
   },
   logoutButton: {
-    borderColor: '#c62828', // vermelho escuro para destaque
+    borderColor: '#c62828',
   },
   logoutText: {
     color: '#ef5350',

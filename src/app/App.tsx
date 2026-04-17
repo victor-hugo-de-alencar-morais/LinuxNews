@@ -1,6 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { AuthProvider } from "./contexts/AuthContext";   // ajuste o caminho
-import AppRoutes from "./routes/AppRoutes";               // verifique o caminho
+import { AuthProvider } from "../contexts/AuthContext";
+import AppRoutes from "../routes/AppRoutes";         
 
 export default function App() {
   return (

@@ -5,7 +5,7 @@ export default function WelcomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
-        {/* Você pode substituir por uma imagem real */}
+        {/* Depois colocar a foto do linux real mesmo */}
         <Text style={styles.logoEmoji}>🐧</Text>
         <Text style={styles.title}>Linux Hub</Text>
         <Text style={styles.subtitle}>Descubra e baixe as melhores distribuições Linux</Text>
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 36,
     fontWeight: 'bold',
-    color: '#81c784', // verde claro
+    color: '#81c784', 
     marginBottom: 8,
   },
   subtitle: {
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   loginButton: {
-    backgroundColor: '#2e7d32', // verde escuro
+    backgroundColor: '#2e7d32', 
     paddingVertical: 16,
     borderRadius: 12,
     alignItems: 'center',

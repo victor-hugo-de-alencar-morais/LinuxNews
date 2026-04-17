@@ -1,4 +1,3 @@
-// ListVersionScreen.js
 import React, { useState, useEffect } from 'react';
 import {
   View,
@@ -10,7 +9,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 
-// Simulação de dados de versões por distro
+// Simulação de dados de versões por distro ainda não funcional, por enquanto
 const mockVersions = {
   ubuntu: [
     { version: '24.04 LTS', codename: 'Noble Numbat', releaseDate: 'Abr 2024', downloadUrl: 'https://releases.ubuntu.com/24.04/' },

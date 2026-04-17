@@ -1,4 +1,3 @@
-// LoginScreen.js
 import React, { useState, useContext } from 'react';
 import {
   View,
@@ -66,7 +65,7 @@ export default function LoginScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#121212', // fundo escuro
+    backgroundColor: '#121212', 
   },
   inner: {
     flex: 1,
@@ -78,7 +77,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 32,
     textAlign: 'center',
-    color: '#81c784', // verde claro
+    color: '#81c784', 
   },
   input: {
     backgroundColor: '#1e1e1e',
@@ -87,12 +86,12 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#2e7d32', // verde escuro
+    borderColor: '#2e7d32', 
     fontSize: 16,
     color: '#fff',
   },
   button: {
-    backgroundColor: '#2e7d32', // verde escuro
+    backgroundColor: '#2e7d32', 
     paddingVertical: 14,
     borderRadius: 8,
     alignItems: 'center',
@@ -104,7 +103,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   link: {
-    color: '#81c784', // verde claro
+    color: '#81c784', 
     textAlign: 'center',
     marginTop: 20,
     fontSize: 16,
